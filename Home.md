@@ -2,7 +2,7 @@
 
 ---
 
-## <center> [HOME](index.html) / [NEWS](news/news.html) / [TASKS](tasks/tasks.html) / [REPORTS](reports.html) </center>
+## <center> [HOME](index.html) / [NEWS](news/news.html) / [TASKS](tasks/tasks.html) / [REPORTS](reports/reports.html) </center>
 
 ---
 ## <center> About </center>
