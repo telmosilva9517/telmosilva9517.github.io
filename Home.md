@@ -2,7 +2,7 @@
 
 ---
 
-## <center> [CURRENT STATE](current.html) / [NEWS](news.html) / [TASKS](tasks.html) / [REPORTS](reports.html) </center>
+## <center> [CURRENT STATE](current.html) / [NEWS](news/news.html) / [TASKS](tasks.html) / [REPORTS](reports.html) </center>
 
 ---
 ## <center> About </center>
@@ -14,11 +14,15 @@
 ---
 ## <center> Latest News
 
-> **[21/02/2018]** First Report Added
->>After discussing with a few friends... [read more](news/first_report_added.html)
+>> **[21/02/2018]** First Report Added
+
+>>> After discussing with a few friends... [read more](news/first_report_added.html)
+
+> .
+
+>> **[20/02/2018]** Title Decided
 
 
-> **[20/02/2018]** Title Decided
->>After discussing with a few friends... [read more](news/title_decided.html)
+>>> After discussing with a few friends... [read more](news/title_decided.html)
 
 > ##### [See all News](news.html)
