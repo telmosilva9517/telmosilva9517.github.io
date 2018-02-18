@@ -9,7 +9,7 @@
 
 <center>To define my career as a 3D Artist, I have proposed myself to create a **short 3D animation** for my **bachelor's degree project**.
 <center>For its production, I intent to use the **free open-source software**:
-<center>  [Blender3D](blender.org) and [Krita](krita.org)
+<center>  [Blender3D](https://www.blender.org) and [Krita](https://www.krita.org)
 
 ---
 ## <center> Latest News
