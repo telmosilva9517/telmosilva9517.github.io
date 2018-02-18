@@ -74,7 +74,7 @@ main section:not(:first-child){
 }
 /* ** */
 #title{
-    background-image: url("midia/placeholder_image.png") fixewd center;
+    background-image: url("midia/placeholder_image.png");
     height: 600px;
     position: relative;
     padding-bottom: 20px;
