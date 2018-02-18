@@ -1,72 +1,85 @@
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="description" content="3D Animation Project Website: My World" />
-  <meta name="keywords" content="3D Animation Bachelor's Degree, HTML, CSS, Reports, Project">
-  <meta name="author" content="Telmo Silva" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>APM Project: 3D Animation</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="3D Animation Project Website: My World" />
+    <meta name="keywords" content="3D Animation Bachelor's Degree, HTML, CSS, Reports, Project">
+    <meta name="author" content="Telmo Silva" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APM Project: 3D Animation</title>
 
 
-  <script src="./scripts/jquery-3.3.1.min.js"></script>
-  <link rel="stylesheet" href="css/index.css" />
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 
-<body>
-  <header>
-Checked
-    <figure>
-      <img src="midia/placeholder_image.png" alt="Dummy Image" />
-    </figure>
+<body class="flex-col">
+    <header class="flex-col">
+        <nav class="flex flex-center-h flex-center-v">
+            <a class="flex flex-center-h flex-center-v" href="">Home</a>
+            <a class="flex flex-center-h flex-center-v" href="">News</a>
+            <a class="flex flex-center-h flex-center-v" href="">Tasks</a>
+            <a class="flex flex-center-h flex-center-v" href="">Reports</a>
 
-    <nav>
-      <ul>
-        <a href=""><li>Home</li></a>
-        <a href=""><li>Overall State</li></a>
-        <a href=""><li>News</li></a>
-        <a href=""><li>Tasks</li></a>
-        <a href=""><li>Reports</li></a>
-      </ul>
-    </nav>
+        </nav>
+    </header>
 
-    Progress: <progress value="0" max="100"></progress>
-  </header>
+    <main class="flex-col flex-center-v flex-center-h">
+        <section id="title" class="flex-col flex-center-h flex-center-v">
+            <h1>Dummy Title</h1>
+            <p>A short description about this project</p>
+        </section>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <div>
-        <p>To define my career as a 3D Artist, I have proposed myself to create a short 3D animation for my bachelor's degree project.
-For its production, I intent to use the free open-source software:</p>
-<a href="">Blender3D</a> and <a href="">Krita</a>
-      </div>
-    </section>
-
-    <section>
-      <h2>Latest News</h2>
-      <div>
-        <a href="">
-            <article>
-                <h4><u>18/02/2018</u> Website Created</h4>
-                <blockquote>Aii lmao</blockquote>
+        <section id="about" class="flex-col flex-center-h flex-center-v">
+            <h2>About</h2>
+            <article class="flex-col flex-center-h flex-center-v">
+                <figure>
+                    <img src="midia/placeholder_image.png" />
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
-        </a>
+        </section>
 
-        <a href="">
+        <section id="progress" class="flex-col flex-center-h flex-center-v">
+            <h2>Progress</h2>
             <article>
-                <h4><u>18/02/2018</u> Website Created</h4>
-                <blockquote>Aii lmao</blockquote>
+                <figure>
+                    <img src="midia/placeholder_image.png" alt="Dummy Image" />
+                </figure>
             </article>
-        </a>
+        </section>
 
-      </div>
-    </section>
-  </main>
+        <hr />
+        <section id="latest_news" class="flex-col flex-center-h flex-center-v">
+            <h2>Latest News</h2>
+            <div>
+                <a href="">
+                    <article>
+                        <h4><u>18/02/2018</u> Website Created</h4>
+                        <blockquote>Aii lmao</blockquote>
+                    </article>
+                </a>
 
-  <footer>
+                <a href="">
+                    <article>
+                        <h4><u>18/02/2018</u> Website Created</h4>
+                        <blockquote>Aii lmao</blockquote>
+                    </article>
+                </a>
 
-  </footer>
+                <a href="./news/news.html">
+                    <article>
+                        <h4>Read More</h4>
+                    </article>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Escola Superior de Educação - Artes Plásticas e Multimédia - 2017/2018</p>
+    </footer>
 
 
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
