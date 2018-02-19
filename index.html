@@ -10,16 +10,15 @@
 
     <script src="./scripts/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/common.css" />
 </head>
 
 <body class="flex-col">
     <header class="flex-col">
         <nav class="flex flex-center-h flex-center-v">
-            <a class="flex flex-center-h flex-center-v" href="">Home</a>
-            <a class="flex flex-center-h flex-center-v" href="">News</a>
-            <a class="flex flex-center-h flex-center-v" href="">Tasks</a>
-            <a class="flex flex-center-h flex-center-v" href="">Reports</a>
-
+            <a class="flex flex-center-h flex-center-v" href="#">Home</a>
+            <a class="flex flex-center-h flex-center-v" href="./news/news.html">News</a>
+            <a class="flex flex-center-h flex-center-v" href="./reports/reports.html">Reports</a>
         </nav>
     </header>
 
@@ -40,38 +39,56 @@
         </section>
 
         <section id="progress" class="flex-col flex-center-h flex-center-v">
-            <h2>Progress</h2>
-            <article>
+            <h2>Current State</h2>
+            <a href=""><h4>Sheet Document ></h4></a>
+            <article class="">
                 <figure>
                     <img src="midia/placeholder_image.png" alt="Dummy Image" />
+                    <figcaption>
+                        <h4>Title #3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </figcaption>
                 </figure>
             </article>
+
+            <article class="">
+                <figure>
+                    <img src="midia/placeholder_image.png" alt="Dummy Image" />
+                    <figcaption>
+                        <h4>Title #2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <ul class="flex flex-center-h flex-center-v">
+            </ul>
         </section>
 
         <hr />
         <section id="latest_news" class="flex-col flex-center-h flex-center-v">
             <h2>Latest News</h2>
-            <div>
-                <a href="">
-                    <article>
-                        <h4><u>18/02/2018</u> Website Created</h4>
-                        <blockquote>Aii lmao</blockquote>
-                    </article>
-                </a>
+            <a href="news/dummy/dummy.html" class="flex-col flex-center-v flex-center-h border">
+                <article>
+                    <h4>> Dummy Notice</h4>
+                    <p>18/02/2018</p>
+                </article>
+            </a>
 
-                <a href="">
-                    <article>
-                        <h4><u>18/02/2018</u> Website Created</h4>
-                        <blockquote>Aii lmao</blockquote>
-                    </article>
-                </a>
+            <a href="news/dummy/dummy.html" class="flex-col flex-center-v flex-center-h border">
+                <article>
+                    <h4>> Dummy Notice</h4>
+                    <p>18/02/2018</p>
+                </article>
+            </a>
 
-                <a href="./news/news.html">
-                    <article>
-                        <h4>Read More</h4>
-                    </article>
-                </a>
-            </div>
+            <a href="news/dummy/dummy.html" class="flex-col flex-center-v flex-center-h border">
+                <article>
+                    <h4>> Dummy Notice</h4>
+                    <p>18/02/2018</p>
+                </article>
+            </a>
+            <a href="./news/news.html"><h4>Read more</h4></a>
         </section>
     </main>
 
